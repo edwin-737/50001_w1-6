@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "JavaProgram"
+include ':app'
+include ':javalib'
+include ':javalib2'
+include ':Week_1'
+include ':Week1_5'
+include ':Week_3'
+include ':Week_4'
+include ':Week_5'
+include ':midterm'
